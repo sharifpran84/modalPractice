@@ -1,0 +1,56 @@
+.btn1{
+    background: #2980b9;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    margin-right: 3px;
+}
+.btn2{
+    background: #2980b9;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 0 15px 15px 0;
+}
+.btn3 {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 79%;
+    right: 7%;
+    font-size: 23px;
+    opacity: 0.5;
+}
+.fh1{
+    position: relative;
+}
+.fh1::before{
+    content: "";
+    position: absolute;
+    top: 105%;
+    left: 0;
+    width: 0%;
+    height: 8%;
+    background: black;
+    transition: .5s;
+}
+.fh1:hover::before{
+    width: 100%;
+}
+.fh2{
+    position: relative;
+}
+.fh2::before{
+    content: "";
+    position: absolute;
+    top: 105%;
+    left: 0;
+    width: 0%;
+    height: 8%;
+    background: black;
+    transition: .5s;
+}
+.fh2:hover::before{
+    width: 100%;
+}
